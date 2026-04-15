@@ -15,7 +15,7 @@ def reset_no():
 # 1. 전체 조회
 def select_all():
     print("\n--- [ 성적 전체 목록 ] ---")
-    print("번호 | 이름(ID)       | 과목명            | 점수 | 학기   | 등록일")
+    print("번호 | 이름(ID)   | 과목명   | 점수 | 학기   | 등록일")
     print("----------------------------------------------------------------")
    
     for m in members:
@@ -44,7 +44,7 @@ def select_one():
             print(f"등록일: {m['date']}")
             return
    
-    print(" 해당 번호 없음")
+    print("해당 번호 없음")
 
 # 3. 성적 추가
 def insert_member():
